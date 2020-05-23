@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>My QR Menu</title>
+</head>
+<body>
+<div class="container" id="menu">
+    <div class="d-flex justify-content-center">
+        <div class="d-inline" id="menu-tab">
+            <a id="entreeLink" href="#entree">
+                <span class="menu-list">Entrée</span>
+            </a>
+            <a id="platsLink" href="#plats">
+                <span class="menu-list">Plats</span>
+            </a>
+            <a id="dessertsLink" href="#desserts">
+                <span class="menu-list">Desserts</span>
+            </a>
+            <a id="boissonsLink" href="#boissons">
+                <span class="menu-list">Boissons</span>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="container" class="menu-title">
+    <div class="d-flex justify-content-center">
+        <h1>Restaurant le Coquelicot</h1>
+        <hr>
+    </div>
+</div>
+<div class="container">
+    <div class="d-flex justify-content-center">
+        <div style="margin: 10px">
+            <h2 style="text-align: center !important;" id="menu-de-la-semaine">Menu de la semaine</h2>
+        </div>
+    </div>
+</div>
+
+<div class="container" class="menu-du-jour">
+    <div class="d-flex justify-content-center">
+        <div class="menu-du-jour">
+            <h2 class="title-menu-type" id="anchor-entrees">Entrées:</h2>
+        </div>
+    </div>
+</div>
+
+<div class="container" class="menu-du-jour">
+    <div class="menu-du-list">
+        <div class="plats">
+            <h3>Lorem ipsum dolor.</h3>
+            <span class="prix">10euros</span>
+        </div>
+        <div class="plats">
+            <h3>Lorem ipsum dolor.</h3>
+            <span class="prix">10euros</span>
+        </div>
+        <div class="plats">
+            <h3>Lorem ipsum dolor.</h3>
+            <span class="prix">10euros</span>
+        </div>
+        <div class="plats">
+            <h3>Lorem ipsum dolor.</h3>
+            <span class="prix">10euros</span>
+        </div>
+
+    </div>
+</div>
+
+<div class="container" class="menu-du-jour">
+    <div class="d-flex justify-content-center">
+        <div class="menu-du-jour">
+            <h2 class="title-menu-type" id="plats">Plats:</h2>
+        </div>
+    </div>
+</div>
+
+<div class="container" class="menu-du-jour">
+    <div class="menu-du-list">
+        <div class="plats">
+            <h3>Lorem ipsum dolor.</h3>
+            <span class="prix">10euros</span>
+        </div>
+        <div class="plats">
+            <h3>Lorem ipsum dolor.</h3>
+            <span class="prix">10euros</span>
+        </div>
+        <div class="plats">
+            <h3>Lorem ipsum dolor.</h3>
+            <span class="prix">10euros</span>
+        </div>
+        <div class="plats">
+            <h3>Lorem ipsum dolor.</h3>
+            <span class="prix">10euros</span>
+        </div>
+    </div>
+</div>
+
+<div class="container" class="menu-du-jour">
+    <div class="d-flex justify-content-center">
+        <div class="menu-du-jour">
+            <h2 class="title-menu-type" id="desserts">Desserts:</h2>
+        </div>
+    </div>
+</div>
+
+<div class="container" class="menu-du-jour">
+    <div class="menu-du-list">
+        <div class="plats">
+            <h3>Lorem ipsum dolor.</h3>
+            <span class="prix">10euros</span>
+        </div>
+        <div class="plats">
+            <h3>Lorem ipsum dolor.</h3>
+            <span class="prix">10euros</span>
+        </div>
+        <div class="plats">
+            <h3>Lorem ipsum dolor.</h3>
+            <span class="prix">10euros</span>
+        </div>
+        <div class="plats">
+            <h3>Lorem ipsum dolor.</h3>
+            <span class="prix">10euros</span>
+        </div>
+    </div>
+</div>
+
+<div class="container" class="menu-du-jour">
+    <div class="d-flex justify-content-center">
+        <div class="menu-du-jour">
+            <h2 class="title-menu-type" id="boissons">Boissons:</h2>
+        </div>
+    </div>
+</div>
+
+<div class="container" class="menu-du-jour">
+    <div class="menu-du-list">
+        <div class="plats">
+            <h3>Lorem ipsum dolor.</h3>
+            <span class="prix">10euros</span>
+        </div>
+        <div class="plats">
+            <h3>Lorem ipsum dolor.</h3>
+            <span class="prix">10euros</span>
+        </div>
+        <div class="plats">
+            <h3>Lorem ipsum dolor.</h3>
+            <span class="prix">10euros</span>
+        </div>
+        <div class="plats">
+            <h3>Lorem ipsum dolor.</h3>
+            <span class="prix">10euros</span>
+        </div>
+    </div>
+</div>
+
+<div class="container" class="menu-title">
+    <div class="d-flex justify-content-center">
+        <h1>Bonne Apétit !</h1>
+    </div>
+</div>
+
+<script>
+    (function () {
+        let d = document;
+
+        function init() {
+            let entreeLink = d.getElementById('entreeLink');
+            let platsLink = d.getElementById('platsLink');
+            let dessertsLink = d.getElementById('dessertsLink');
+            let boissonsLink = d.getElementById('boissonsLink');
+            let entreeLink2 = d.getElementById('entreeLink2');
+            let platsLink2 = d.getElementById('platsLink2');
+            let dessertsLink2 = d.getElementById('dessertsLink2');
+            let boissonsLink2 = d.getElementById('boissonsLink2');
+            //Anchors
+            let entree = d.getElementById('entree');
+            let plats = d.getElementById('plats');
+            let desserts = d.getElementById('desserts');
+            let boissons = d.getElementById('boissons');
+
+            entreeLink.addEventListener('click', (e) => {
+                scrollTo(entree, e)
+            }, false);
+            entreeLink2.addEventListener('click', (e) => {
+                scrollTo(entree, e)
+            }, false);
+            platsLink.addEventListener('click', (e) => {
+                scrollTo(plats, e)
+            }, false);
+            platsLink2.addEventListener('click', (e) => {
+                scrollTo(plats, e)
+            }, false);
+            dessertsLink.addEventListener('click', (e) => {
+                scrollTo(desserts, e)
+            }, false);
+            dessertsLink2.addEventListener('click', (e) => {
+                scrollTo(desserts, e)
+            }, false);
+            boissonsLink.addEventListener('click', (e) => {
+                scrollTo(boissons.offsetTop, e)
+            }, false);
+            boissonsLink2.addEventListener('click', (e) => {
+                scrollTo(boissons.offsetTop, e)
+            }, false);
+
+            console.log(plats); //DEBUG
+            console.log('entree: ' + scrollTopValue(entree) + ' / ' + offsetTopValue(entree)); //DEBUG
+            console.log('plats: ' + scrollTopValue(plats) + ' / ' + offsetTopValue(plats)); //DEBUG
+            console.log('desserts: ' + scrollTopValue(desserts) + ' / ' + offsetTopValue(desserts)); //DEBUG
+            console.log('boissons: ' + scrollTopValue(boissons) + ' / ' + offsetTopValue(boissons)); //DEBUG
+            // d.addEventListener('scroll', (e) => { console.log(e) }, false); //DEBUG
+
+            console.log('App loaded. Have fun!');
+        }
+
+        function scrollTopValue(domElement) { //DEBUG
+            return 'scrollTopValue:', domElement.scrollTop;
+        }
+
+        function offsetTopValue(domElement) { //DEBUG
+            return 'offsetTopValue:', domElement.offsetTop;
+        }
+
+        var requestAnimFrame = (function () {
+            return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || function (callback) {
+                window.setTimeout(callback, 1000 / 60);
+            };
+        })();
+
+        function scrollTo(to, callback, duration = 1500) { //FIXME this always starts from '0', instead of the clicked element offsetTop -> This is because the position is calculated for the main <html> element, not the <iframe>'s <html> tag
+            if (isDomElement(to)) {
+                // console.log('this is an element:', to); //DEBUG
+                to = to.offsetTop;
+            }
+
+            function move(amount) {
+                // document.scrollingElement.scrollTop = amount; //FIXME Test that
+                document.documentElement.scrollTop = amount;
+                document.body.parentNode.scrollTop = amount;
+                document.body.scrollTop = amount;
+            }
+
+            function position() {
+                return document.documentElement.offsetTop || document.body.parentNode.offsetTop || document.body.offsetTop;
+            }
+
+            var start = position(),
+                change = to - start,
+                currentTime = 0,
+                increment = 20;
+            console.log('start:', start); //DEBUG
+            console.log('to:', to); //DEBUG
+            console.log('change:', change); //DEBUG
+
+            var animateScroll = function () {
+                // increment the time
+                currentTime += increment;
+                // find the value with the quadratic in-out easing function
+                var val = Math.easeInOutQuad(currentTime, start, change, duration);
+                // move the document.body
+                move(val);
+                // do the animation unless its over
+                if (currentTime < duration) {
+                    requestAnimFrame(animateScroll);
+                } else {
+                    if (callback && typeof (callback) === 'function') {
+                        // the animation is done so lets callback
+                        callback();
+                    }
+                }
+            };
+
+            animateScroll();
+        }
+
+        init();
+    })();
+
+    Math.easeInOutQuad = function (t, b, c, d) {
+        t /= d / 2;
+        if (t < 1) {
+            return c / 2 * t * t + b
+        }
+        t--;
+        return -c / 2 * (t * (t - 2) - 1) + b;
+    };
+
+    Math.easeInCubic = function (t, b, c, d) {
+        var tc = (t /= d) * t * t;
+        return b + c * (tc);
+    };
+
+    Math.inOutQuintic = function (t, b, c, d) {
+        var ts = (t /= d) * t,
+            tc = ts * t;
+        return b + c * (6 * tc * ts + -15 * ts * ts + 10 * tc);
+    };
+
+    function isDomElement(obj) {
+        return obj instanceof Element;
+    }
+
+    function isMouseEvent(obj) {
+        return obj instanceof MouseEvent;
+    }
+
+    function findScrollingElement(element) { //FIXME Test this too
+        do {
+            if (element.clientHeight < element.scrollHeight || element.clientWidth < element.scrollWidth) {
+                return element;
+            }
+        } while (element = element.parentNode);
+    }
+
+</script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+</html>

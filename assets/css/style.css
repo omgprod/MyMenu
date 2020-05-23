@@ -1,0 +1,93 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Pacifico', cursive;
+    color: #C70039;
+}
+
+.menu-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.title-menu-type{
+    text-align: left;
+    color: aliceblue;
+    margin-left: 10px;
+    font-family: 'Pacifico', cursive;
+}
+
+
+
+span{
+    font-family: 'Pacifico', cursive;
+}
+
+#menu {
+    background-color: #C70039;
+    border-bottom: black 2px solid;
+}
+
+#menu-de-la-semaine{
+    /*border-bottom: black 2px solid;*/
+}
+
+#menu-tab {
+    padding: 10px;
+    margin: 5px;
+}
+
+.menu-list {
+    color: aliceblue;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.menu-du-jour {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #C70039;
+    border-radius: 5px;
+}
+
+.menu-du-list {
+    margin-top: 30px;
+    width: 100%;
+    background-color: aliceblue;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.plats {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.prix{
+    display: flex;
+    text-align: right;
+}
